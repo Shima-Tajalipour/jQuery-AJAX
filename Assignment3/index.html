@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 3: Countdown Timer</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header>
+            <nav id="header">
+                <div class="nav-wrapper">
+                    <div class="icon">
+                        <i class="Medium material-icons">arrow_back</i>&nbsp;&nbsp;&nbsp;
+                        <i class="Medium material-icons">arrow_forward</i>&nbsp;&nbsp;&nbsp;
+                        <i class="Medium material-icons">cancel</i>&nbsp;&nbsp;&nbsp;
+                        <i class="Medium material-icons">home</i>&nbsp;&nbsp;&nbsp;
+                        <h4>Countdown Timer</h4>
+                        <input id="search" type="search" required>
+                    </div>   
+                </div>
+            </nav>
+        </header>
+        <section>
+            <br>
+            <div id="container">
+                <div id="time">
+                    <label>Hours: </label>
+                    <input id="hours" class="time" type="number" min="0" max="23" value="0">
+                    <label>Minutes: </label>
+                    <input id="minutes" class="time" type="number" min="0" max="59" value="0">
+                    <label>Seconds: </label>
+                    <input id="seconds" class="time" type="number" min="0" max="59" value="0">
+                </div>
+                <div>
+                    <a class="btn" id="start">Start</a>
+                    <a class="btn" id="reset">Reset</a>
+                </div>
+            </div>    
+        </section>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="/js.js"></script>   
+    </body>
+</html>
