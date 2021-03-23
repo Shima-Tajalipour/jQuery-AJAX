@@ -1,0 +1,41 @@
+body{
+    max-width: 1000px;
+    padding: 5px;
+}
+#header{
+    background-color: rgb(148, 148, 155);
+    height: 70px;
+}
+#txt-Search{
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    left:300px;
+    top:15px;
+}
+.icon{
+    display: flex;
+    position: relative;
+    left:10px;
+}
+.icon h4{
+    position: relative;
+    left:100px;
+    top:10px;
+    margin-top: 0;
+}
+.btn{
+    position: relative;
+    top: 16px;
+    left:1px;
+}
+#result{
+    width: 100%;
+}
+#result img{
+    width: 200px;
+    position: relative;
+    left: 80px;
+    top: 30px;
+}
