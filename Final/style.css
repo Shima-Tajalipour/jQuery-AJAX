@@ -1,0 +1,117 @@
+body{
+    max-width: 1500px;
+    background-color: rgb(214, 214, 214);
+    margin: 5px;
+}
+.card{
+    display: inline-block;
+    vertical-align: top;
+    height: 400px;
+    margin-left: 20px;
+    position: relative;
+    left: 85px;
+    margin-top: 10px;
+}
+.navbar-font{
+    font-weight: bold;
+    font-size: 30px;
+}
+.menu{
+    display: inline-block;
+    width: 600px;
+    vertical-align: top;
+    position: relative;
+    left: 20px;
+}
+.menu a{
+    font-size: 20px;
+}
+.dishes{
+    display: inline-block;
+    width: 600px;
+    position: relative;
+
+}
+#p-menu{
+    position: relative;
+    top: 10px;
+    left: 105px;
+    width: 1250px;
+}
+#suggestion{
+    width: 600px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.footer-copyright{
+    width: 50%;
+    position: relative;
+    left: 400px;
+    text-align: center;
+}
+.pictures{
+    width:600px;
+    height: 300px;
+    position: relative;
+    top: 10px;
+}
+.pictures:hover{
+    transform: scale(1.05);
+}
+.categorie{
+    width: 611px;
+    position: relative;
+    top: 10px;
+    vertical-align: top;
+}
+.categorie-list{
+    font-family: cursive;
+    position: relative;
+    top: 30px;
+    left: 105px;
+    width: 220px;
+    display: inline-flex;
+    vertical-align: top;
+}
+.picturesRandom{
+    width:600px;
+    height: 300px;
+    position: relative;
+    top: 10px;
+}
+.picturesRandom:hover{
+    transform: scale(1.05);
+}
+#marquee-txt{
+    font-size: 24px;
+    height: 35px;
+    color:blue;
+}
+#result{
+    position: relative;
+    top: 5px;
+    width: 435px;
+    height: 340px;
+}
+.p-btn{
+    margin-right: 10px;
+}
+#table-menu{
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+#table-menu tr:nth-child(even){
+    background-color: cornsilk;
+    color: black;
+}
+.navbar-nav{
+    font-size: 22px;
+    margin-left: 100px;
+}
+.navbar-nav a:hover{
+    background-color: rgba(73, 73, 207, 0.61);
+}
+.nav-item{
+    margin-right: 30px;
+}

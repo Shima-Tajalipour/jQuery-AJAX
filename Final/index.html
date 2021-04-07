@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Final project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(2, 24, 148, 0.534);">
+            <div class="container-fluid">
+              &nbsp;&nbsp;&nbsp;<a class="navbar-brand navbar-font" href="./index.html">Slice Of Heaven</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Good to know</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Contact us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">About us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section>
+        <div class="card" style="width: 18rem;">
+            <img src="./images/1.jpg" class="card-img-top" alt="pancake">
+            <div class="card-body">
+                <p class="card-text">We all know breakfast is the most important meal of the day. We rounded up the best tasty and filling breakfast recipes that will get you pumped to get out of bed for your morning meal (yes, even on Mondays!).</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./images/2.jpg" class="card-img-top" alt="food">
+            <div class="card-body">
+                <p class="card-text">A little slice of heaven,Try our delicious food!Healthy food provides us the nutrients and energy to develop and grow, be active and healthy, to move, play, work, think and learn. </p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./images/4.jpg" class="card-img-top" alt="dessert">
+            <div class="card-body">
+                <p class="card-text">Who doesn't love dessert!Whether you crave sweet, savory or healthy, we have hundreds of top-rated dessert to satisfy your taste buds.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./images/3.jpg" class="card-img-top" alt="drinks">
+          <div class="card-body">
+              <p class="card-text">Beverages not only provide essential hydration but can also be a source of other nutrients. As well as energy some beverages can be a source of vitamins and minerals, protein, fats and other carbohydrates.</p>
+          </div>
+      </div>
+      <div id="p-menu">
+        <div class="dishes">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/dish1.jpg" class="d-block w-100" alt="dish1">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/dish2.jpg" class="d-block w-100" alt="dish2">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/dish3.jpg" class="d-block w-100" alt="dish3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <marquee id="marquee-txt" behavior="Alternate" direction="right"> Enjoy delicious food and have a good time! </marquee>
+          <div id="result" class="categorie"></div>
+        </div>
+        <div class="menu">
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">breakfast Menu</a>
+            <a href="#" class="list-group-item list-group-item-action">Main dish Menu</a>
+            <a href="#" class="list-group-item list-group-item-action">Dessert Menu</a>
+            <a href="#" class="list-group-item list-group-item-action">Drinks Menu</a>
+          </div>
+          <br>
+          <div class="categorie">
+            <form class="d-flex">
+                <input style="width: 360px;" class="form-control me-2" id="txt-Search" type="search" placeholder="Please enter one of the foods of below Menu: " aria-label="Search" autocomplete="off">
+                <button class="btn btn-light p-btn" id="btn-Search" type="submit">Search</button>
+                <button class="btn btn-light p-btn" id="btn-Random" type="submit">Random Pictures</button>
+            </form>
+          </div>
+          <div>
+            <table class="table" id="table-menu">
+              <thead>
+                <tr>
+                  <th>Foods</th>
+                  <th>Amounts of pictures</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>biryani</td>
+                  <td>82</td>
+                </tr>      
+                <tr>
+                  <td>burger</td>
+                  <td>87</td>
+                </tr>
+                <tr>
+                  <td>butter-chicken</td>
+                  <td>22</td>
+                </tr>
+                <tr>
+                  <td>dessert</td>
+                  <td>36</td>
+                </tr>
+                <tr>
+                  <td>dosa</td>
+                  <td>83</td>
+                </tr>
+                <tr>
+                  <td>idly</td>
+                  <td>77</td>
+                </tr>
+                <tr>
+                  <td>pasta</td>
+                  <td>34</td>
+                </tr>
+                <tr>
+                  <td>pizza</td>
+                  <td>84</td>
+                </tr>
+                <tr>
+                  <td>rice</td>
+                  <td>35</td>
+                </tr>
+                <tr>
+                  <td>samosa</td>
+                  <td>22</td>
+                </tr>
+                <tr><td>Total Foodishes : 562</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <hr>
+      <div class="footer-copyright">
+        <p>Copyright &copy; 2021 Slice of Heaven's Netherland. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="./js.js"></script>
+</body>
+</html>
